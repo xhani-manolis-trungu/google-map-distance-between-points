@@ -55,3 +55,8 @@ function initMap(): void {
   console.log(distance)
 }
 export { initMap };
+
+// We can create a custom box in the center of the distance between them using the 
+// https://ackerapple.github.io/agm-overlays/
+// it uses the latLngArray:exampleLatLng[] = points from the ;
+// https://github.com/AckerApple/agm-overlays/blob/master/example/src/app.component.ts
